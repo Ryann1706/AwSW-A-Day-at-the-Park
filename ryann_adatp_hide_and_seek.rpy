@@ -131,7 +131,10 @@ menu:
         $ renpy.pause (0.5)
         hide adine with dissolve
         $ renpy.pause (0.5)
-        jump ryann_adatp_hide_and_seek_playground_show_characters
+        if ryann_adatp_hide_and_seek_people_found == 4:
+            jump ryann_adatp_hide_and_seek_end
+        else:
+            jump ryann_adatp_hide_and_seek_playground_show_characters
 
     "[[Go somewhere else.]":
         menu: 

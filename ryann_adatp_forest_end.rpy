@@ -199,5 +199,7 @@ c "You don’t have to worry about anything though. I’m fine, and the delivery
 Sb "Right. Just try to be more conscious of time in the future. I was starting to suspect something could have happened to you, and that’s the reason you were late."
 Sb normal b "But I guess as long as you’re fine, it doesn't need to be worried about, as long as it doesn't happen again. Anyway…"
 
+$ ryann_adatp_played = True
+
 jump c4postsections
 

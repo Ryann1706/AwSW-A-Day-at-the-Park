@@ -219,7 +219,7 @@ $ renpy.pause (2.0)
 c "Amely is definitely… energetic, huh?"
 Ry "I have no idea how Adine can handle looking after her without consistently feeling exhausted."
 c "I have no clue either."
-Ry normal flip "Anyway, we should probably try and catch up with those two."
+Ry normal flip "Anyway, we should probably try catch up with those two."
 show vara normal small flip with dissolve
 c "Yeah, let’s go."
 $ renpy.pause (0.5)

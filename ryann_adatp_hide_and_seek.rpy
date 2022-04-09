@@ -113,15 +113,15 @@ menu:
             c "Adine, are sure it’s a good idea to fly while your wing is still sprained?"
             Ad "Oh, don’t worry. It’s healed enough that I can fly with a bandage to stabilize it. I just can’t do any more exerting or advanced moves."
             c "Won’t that make it take longer to heal if you’re still using it? What if it doesn’t heal before your competition?"
-            Ad giggle b "[player_name], seriously, don’t worry, I’ll be fine. Like I said, this kind of stuff happens, I know what I’m doing."
+            Ad giggle b "[player_name], seriously, don’t worry, I’ll be fine. Like I said, this kind of stuff happens. I know what I’m doing."
             c "If you say so…"
 
         elif adine2unplayed == True:
             m "It was only then I noticed a bandage on one of Adine’s wings."
             c "Hey, why is your wing bandaged? Did you get hurt?"
             Ad think b "Hmm?"
-            Ad normal b "Oh, right. I just sprained my wing while I was practicing my stunt flying recently, I had a bit of a rough landing."
-            c "Are you sure it’s a good idea to fly then?"
+            Ad normal b "Oh, right. I just sprained my wing while I was practicing my stunt flying recently. I had a bit of a rough landing."
+            c "Are you sure it’s a good idea to fly, then?"
             Ad "Well, it’s healed enough I can fly with the bandage to stabilize it. I just can’t do any more exerting or advanced moves. Don’t worry, I’ll be fine."
             c "If you say so…"
 
@@ -167,9 +167,9 @@ label ryann_adatp_hide_and_seek_street:
 if ryann_adatp_hide_and_seek_found_remy == False:
     $ ryann_adatp_hide_and_seek_found_remy = True
     $ ryann_adatp_hide_and_seek_people_found += 1
-    m "I made my way onto the street near the park, and was a very pleasant park, it had a fountain, flower bed, and a picnic area off to the side."
-    m "And most importantly, Remy, attempting to hide behind shrubbery that was clearly too small for him."
-    c "Very inconspicuous Remy."
+    m "I made my way onto the street near the park. The was very pleasant, having a fountain, flower bed, and a picnic area off to the side."
+    m "And most importantly, Remy; attempting to hide behind shrubbery that was clearly too small for him."
+    c "Very inconspicuous, Remy."
     $ renpy.pause (0.5)
     show remy look with dissolve
     $ renpy.pause (0.5)
@@ -215,7 +215,7 @@ menu:
         Vr normal small "…"
         c "I have to say, you picked a very good hiding spot."
         Vr smile small "…"
-        c "Remy is waiting in the playground, do you want to wait with him?"
+        c "Remy is waiting in the playground. Do you want to wait with him?"
         m "Vara nodded, then walked off to the playground."
         $ renpy.pause (0.5)
         show vara smile flip with dissolve
@@ -283,14 +283,14 @@ menu:
         $ ryann_adatp_hide_and_seek_found_amely = True
         $ ryann_adatp_hide_and_seek_people_found += 1
         $ ryann_adatp_hide_and_seek_time_remaining -= 1
-        c "(I wonder if there’s anyone in this tree?)"
+        c "(I wonder if there’s anyone up in this tree?)"
         $ renpy.pause (2.0)
         c "Wait… Is that-{w=0.5}{nw}"
         play sound "fx/impact.wav"
         $ renpy.pause (0.4)
         show black with dissolve
         $ renpy.pause (1.5)
-        m "Before I could process what was in the tree, it suddenly jumped on top of me."
+        m "Before I could process what was up in the tree, it suddenly jumped on top of me."
         $ renpy.pause (1.0)
         c "(Ow... What was that?)"
         $ renpy.pause (0.5)
@@ -313,7 +313,7 @@ menu:
     "Check grass." if not ryann_adatp_hide_and_seek_checked_grass:
         $ ryann_adatp_hide_and_seek_checked_grass = True
         $ ryann_adatp_hide_and_seek_time_remaining -= 1
-        c "(This grass is pretty dense, maybe there’s someone hiding in it?)"
+        c "(This grass is pretty dense. Maybe there’s someone hiding in it?)"
         play sound "fx/bushes.ogg" fadein 1.0
         $ renpy.pause (2.0)
         stop sound fadeout 1.5
@@ -390,7 +390,7 @@ elif ryann_adatp_hide_and_seek_time_remaining == 0:
     show vara smile small at Position(xpos=0.9) behind amely
     with dissolve  
     $ renpy.pause (0.5)
-    Ad giggle b flip "Looks like you lose [player_name]."
+    Ad giggle b flip "Looks like you lose, [player_name]."
     c "I guess I do."
     Am "Yay! We winner!"
     show adine normal b flip with dissolve
@@ -401,7 +401,7 @@ else: # This is a basically a "just in case" thing to prevent a crash
 
 Ry normal flip "Well, regardless of who won or lost, I’m sure everyone had fun."
 Am "Yeah!"
-Ad giggle b flip "Honestly, it made me feel really nostalgic and young like I was a hatchling again."
+Ad giggle b flip "Honestly, it made me feel really nostalgic and young, like I was a hatchling again."
 Ry smile flip "I’d have to agree with you there."
 $ renpy.pause (1.0)
 show remy normal flip 

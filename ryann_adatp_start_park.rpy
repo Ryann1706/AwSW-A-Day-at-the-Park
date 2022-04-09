@@ -4,7 +4,7 @@ label ryann_adatp_start_pda2:
 
 c "If you don't mind me asking, how come you aren't working today?"
 Ry smile "Well, Adine and I were planning on bringing Amely and Vara to the park today, so I took the day off work."
-Ry normal "There are so few volunteers working at the orphanage, so they really could use getting to spend time outside with someone one on one, or in this case, two on two."
+Ry normal "There are so few volunteers working at the orphanage, so they really could use getting to spend time outside with someone one-on-one, or in this case, two-on-two."
 $ renpy.pause (1.5)
 Ry smile "Actually, if you wanted, I wouldn’t mind if you came along with us."
 Ry normal "I think it would be nice for Amely and Vara to spend time with someone else other than me or Adine, especially a human."
@@ -12,7 +12,7 @@ if adinestatus == "bad" or adinestatus == "abandoned":
     c "Wait, you said Adine will be there too, right?"
     Ry look "Yes. Would that be a problem?"
     c "Well, I don’t exactly think Adine is too fond of me… I don’t want to ruin the trip for the rest of you."
-    Ry normal "Oh. Well, I won’t press either of you for details as it’s your business. It is a shame you can’t come along though."
+    Ry normal "Oh. Well, I won’t press either of you for details as it’s your business. It is a shame you can’t come along, though."
     c "It’s fine. You go enjoy yourselves."
     Ry "Right. Anyway, I appreciate you delivering this to me."
     c "I'm just going to leave you to it, then."
@@ -43,7 +43,7 @@ menu:
         $ renpy.pause (1.3)
         show remy normal flip at Position(xpos=0.2) with easeinleft
         $ renpy.pause (0.5)
-        Ad "There you are Remy. We already got ready to go while waiting for you."
+        Ad "There you are, Remy. We already got ready to go while we were waiting for you."
         Ad think b "Wait, why is [player_name] with you?"
         Ry "I hope you don’t mind, but I invited [player_name] to come along with us. Is that okay?"
         Ad giggle b "Oh, sure. The more the merrier!"
@@ -77,7 +77,7 @@ label ryann_adatp_start_orphanage_remy2:
 $ renpy.pause (1.5)
 Ry normal flip "Hmm…"
 Ry smile flip "Actually, Adine, how about we invite [player_name] with us?"
-Ad giggle b "Oh, Sure, the more the merrier!"
+Ad giggle b "Oh, sure; the more the merrier!"
 Ad normal b "I don’t have a problem with that, and I’m assuming Amely and Vara don’t either, right?"
 show amely normal small at Position(xpos=0.7, ypos=1.0) with easeinbottom
 $ renpy.pause (0.2)
@@ -91,7 +91,7 @@ menu:
         c "Sure, I’d love to come along."
         Ry "I’m glad to hear it, but aren’t you helping the police at the moment? Shouldn't that take priority?"
         c "Well, most of the stuff I could be helping with is just basic chores that could be done at any time. I’m sure it’ll be fine if I take a break for a while."
-        Ry "If you say so, just give us a few moments to get ready."
+        Ry "If you say so. Just give us a few moments to get ready."
         $ renpy.pause (0.5)
         scene black with dissolveslow
         jump ryann_adatp_start_park
@@ -101,7 +101,7 @@ menu:
         Ad sad b "Oh, that’s a shame."
         Ry normal flip "Maybe some other time then."
         show adine normal b with dissolve
-        c "Maybe, but I can’t promise I won’t be busy later too."
+        c "Maybe, but I can’t promise I won’t be busy later, too."
         c "I don’t mean to sound rude, but I have to get going. I’ll see you later."
         Ry "Alright, goodbye."
         Am "Bye-bye!"
@@ -142,7 +142,7 @@ menu:
         Ad sad b "Oh, that’s a shame."
         Ry normal flip "Maybe some other time then."
         show adine normal b with dissolve
-        c "Maybe, but I can’t promise I won’t be busy later too."
+        c "Maybe, but I can’t promise I won’t be busy later, too."
         c "I don’t mean to sound rude, but I have to get going. I’ll see you later."
         Ad "Alright, see ya later then."
         Am "Bye-bye!"
@@ -179,7 +179,7 @@ $ renpy.pause (2.0)
 show amely sad small flip with dissolve
 $ renpy.pause (1.0)
 Am "We there yet…?"
-Ad annoyed b flip "We’re nearly there Amely, just have some patience."
+Ad annoyed b flip "We’re nearly there, Amely. Just have some patience."
 $ renpy.pause (0.5)
 show amely normal small flip with dissolve
 $ renpy.pause (2.0)
@@ -217,7 +217,7 @@ $ renpy.pause (0.5)
 Ad "Amely, slow down! Wait for me!"
 $ renpy.pause (2.0)
 c "Amely is definitely… energetic, huh?"
-Ry "I have no idea how Adine can handle looking after her without consistently feeling exhausted."
+Ry "I have no idea how Adine can handle looking after her without constantly feeling exhausted."
 c "I have no clue either."
 Ry normal flip "Anyway, we should probably try catch up with those two."
 show vara normal small flip with dissolve
@@ -239,7 +239,7 @@ $ renpy.pause (0.5)
 Ry smile flip "Finally got her under control, huh?"
 Ad "Yeah… Finally…"
 Am "Heh heh heh…"
-Ry normal flip "Well you two go ahead and play, just don’t go too far, okay?"
+Ry normal flip "Well you two go ahead and play. Just don’t go too far, okay?"
 Am "Okay!"
 show vara smile small flip with dissolve
 show amely normal small flip with dissolve 
@@ -315,7 +315,7 @@ show ryann_chalk_flower with dissolvemed
 $ renpy.pause (4.0)
 hide ryann_chalk_flower with dissolvemed
 $ renpy.pause (0.5)
-c "Oh, wow! That’s a really beautiful flower Amely."
+c "Oh, wow! That’s a really beautiful flower, Amely."
 Am "Thank you!"
 $ renpy.pause (1.5)
 Am "Draw!"
@@ -376,7 +376,7 @@ elif ryann_adatp_amely_chalk == "all":
     hide ryann_chalk_all with dissolvemed
 
 $ renpy.pause (0.5)
-c "Wow! That’s amazing! You’re a really great artist Amely."
+c "Wow! That’s amazing! You’re a really great artist, Amely."
 Am "Yaaaaay!!!"
 show amely normal small flip with dissolve
 hide amely with easeoutright
@@ -410,15 +410,15 @@ m "I turned and started to walk away, but was stopped by something tugging my le
 m "I looked to check and saw it was Vara grabbing my leg, and upon my notice of her, she pulled again and started to walk off, glancing back indicating I should follow."
 $ renpy.pause (2.0)
 if persistent.varasaved == True:
-    m "I trailed behind her for a few moments (getting a sense of deja vu,) as she led me to some swings."
+    m "I trailed behind her for a few moments getting a sense of deja vu, as she led me to some swings."
 else:
     m "I trailed behind her for a few moments as she led me to some swings."
 
 c "Oh, do you want me to push you on the swings?"
 m "She again nodded in silence."
-m "I moved towards the swing set and realized that they weren't the usual rectangular design I recognized, but rather it had a much bigger surface area, with some kind of harness strapping."
+m "I moved towards the swing set and realized that they weren't the usual rectangular design I recognized, but rather it had a much bigger surface area with some kind of harness strapping."
 c "(So this is why she didn’t ask Remy or Adine…)"
-c "I’ll hold steady it while you get on, then I’ll do up this harness for you."
+c "I’ll hold it steady while you get on, then I’ll do up this harness for you."
 play sound "fx/undress.ogg"
 $ renpy.pause (1.5)
 m "It took surprisingly little time or effort to set everything up, and once it was, I started pushing Vara gently, unsure of my technique when it came to pushing a dragon instead of a human."
@@ -431,7 +431,7 @@ m "Then she started flapping her wings in time with her swinging, further increa
 m "She was now going fairly high at this point, higher than I assumed Remy or Adine could push her with their lack of proper hands. Surprisingly enough, she didn’t seem scared at all."
 m "I noticed she even started slightly wagging her tail and that there was a bright smile on her face."
 $ renpy.pause (2.0)
-m "After swinging at this height for a bit longer, she glanced back at me, letting me know she wanted to stop, and after she slowed down, I grabbed the swing stopping it entirely."
+m "After swinging at this height for a bit longer, she glanced back at me, letting me know she wanted to stop, and after she slowed down, I grabbed the swing, stopping it entirely."
 m "I undid the harness, and she hopped down with surprising ease and turned to face me."
 c "Did you enjoy that?"
 m "She responded with a more enthusiastic nod than usual."
@@ -486,9 +486,9 @@ Ad normal b "She then leads me and Amely back to the orphanage, and explains abo
 c "After Amely’s first impression, I doubt I would’ve volunteered."
 Ry "If I didn’t decide to volunteer, I wouldn't have gotten to meet Vara."
 Ry smile flip "It seems like a lot at first, but once you actually start, it’s entirely worth it."
-Ad giggle b "Exactly. I wouldn’t have gotten to know Amely more either."
+Ad giggle b "Exactly. I wouldn’t have gotten to know Amely more, either."
 Ad normal b "You just need something to give you that first push to actually get into it, and then when you get to know the hatchlings better, you’ll understand."
-Ry normal flip "I agree. If you have the opportunity to, I think it would be lovely for both them and you if you spent more time with them and know them better."
+Ry normal flip "I agree. If you have the opportunity to, I think it would be lovely for both them and you if you spent more time with them and got to know them better."
 menu:
     "Amely is an agent of chaos.":
         c "After that story, and seeing how she acted on the way here, I don’t need to spend any more time to see Amely is a pure agent of chaos."
@@ -499,7 +499,7 @@ menu:
         show remy normal flip with dissolve
 
     "Vara is a sweetheart.":
-        c " I don’t need to spend much more time to see that Vara is an absolute sweetheart."
+        c "I don’t need to spend much more time to see that Vara is an absolute sweetheart."
         Ry smile flip "Exactly."
         $ renpy.pause (1.0)
         show remy normal flip with dissolve
@@ -522,18 +522,18 @@ menu:
         with dissolve
 
 if adine2unplayed == False:
-    c "Also, while we’re on the topic of them, Remy, I wanted to know if you considered adopting Vara."
+    c "Also, while we’re on the topic of them, Remy, I wanted to know if you've considered adopting Vara."
     Ry "Well, I have considered the thought of adopting."
 
 else: 
-    c "Also, while we’re on the topic of them, I wanted to know if either of you has considered adopting Amely and Vara."
+    c "Also, while we’re on the topic of them, I wanted to know if either of you have considered adopting Amely and Vara."
     Ad disappoint b "I would if I could, but I don’t think I could care for her properly. Not as a single parent with my packed work schedule."
     Ry look flip "That’s a shame…"
-    Ry normal flip "I have considered the thought of adopting myself though."
+    Ry normal flip "I have considered the thought of adopting myself, though."
     show adine normal b with dissolve
 
 Ry "I’m just not sure if I’m prepared to fully make that commitment yet."
-Ad "Well, it’s good you’re properly thinking it through instead of just rushing into it."
+Ad "Well, it’s good that you’re properly thinking it through instead of just rushing into it."
 Ad disappoint b "That’s the reason some of those poor kids are there in the first place."
 c "Well, they could be in a lot worse of a situation."
 Ad "Yeah, I guess you’re right."
@@ -544,9 +544,9 @@ show adine normal b with dissolve
 $ renpy.pause (1.5)
 
 if ryann_adatp_park_choices == 3:
-    Ry smile flip "Actually, how about we get Amely and Vara together. I have an idea for something we could do."
-    c "What did you have in mind?"
-    Ry normal flip "It’ll be easier to say with everyone together so I’m not repeating myself."
+    Ry smile flip "Actually, how about we get Amely and Vara together? I have an idea for something we could do."
+    c "What do you have in mind?"
+    Ry normal flip "It’ll be easier to say with everyone together, so that I’m not repeating myself."
     Ad "We'll bring them over then."
     $ renpy.pause (0.5)
     show adine normal b flip with dissolve
@@ -563,12 +563,11 @@ if ryann_adatp_park_choices == 3:
     with easeinright
     $ renpy.pause (0.5)
     Am "Hello!"
-    Ry "Hello Amely."
-    c "So, Remy, what did you want to say?"
+    c "So Remy, what did you want to say?"
     jump ryann_adatp_hide_and_seek_start
 
 else:
-    Ry "Anyway, I had an idea something for the five of us could do, but I think it’s best if we wait for a bit longer before doing it."
+    Ry "Anyway, I have an idea for something the five of us could do, but I think it’s best if we wait for a bit longer before doing it."
     Ry "We’ll call you when we’re ready."
     c "Alright, I’ll see you two in a bit then."
     $ renpy.pause (0.5)
@@ -592,14 +591,14 @@ m "Vara nodded."
 Ad think b flip "So, who’s going to be the seeker?"
 c "I wouldn’t mind being the seeker."
 show adine normal b flip with dissolve 
-Ry "Alright. You can count to, let’s say, 30? And you’ll have 10 minutes to find the four of us."
+Ry "Alright. You can count to, let’s say… 30? And you’ll have 10 minutes to find the four of us."
 c "Sounds fair enough to me."
-Ad "We won’t go too far, we’ll stay within the park and nearby street."
+Ad "We won’t go too far. We’ll stay within the park and the nearby street."
 Am "Forest too!"
 Ad think b flip "Hmm…"
 Ad normal b flip "Alright, as long as you don’t go too far, okay?"
 Am "Okay."
-Ry "Start whenever you’re ready [player_name]."
+Ry "Start whenever you’re ready, [player_name]."
 c "Alright, I’ll start now then."
 $ renpy.pause (0.5)
 scene black with dissolvemed

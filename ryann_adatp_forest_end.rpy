@@ -14,24 +14,24 @@ with easeinleft
 $ renpy.pause (0.5)
 
 Am "We here."
-Ad think b "What did you want to show us here Amely? Something to do with flowers?"
+Ad think b "What did you want to show us here, Amely? Something to do with flowers?"
 Am "Flowers!"
 play sound "fx/bushes.ogg" fadein 1.0
 if ryann_adatp_hide_and_seek_checked_grass == True:
-    m "Amely then crouched down into the grass and started searching through it, just as I had earlier. Then she rose with the daisies I had found earlier too."
+    m "Amely then crouched down into the grass and started searching through it, just as I had earlier. She then rose with the daisies I had found earlier too."
 else:
-    m "Amely then crouched down into the dense grass and started searching through it. Then when she rose she had daisies in her little hands."
+    m "Amely then crouched down into the dense grass and started searching through it. When she rose she had daisies in her little hands."
 
 stop sound fadeout 0.5
 Am "Crown!"
 Ad giggle b "Oh, you want to make flower crowns? That’s adorable!"
 Ry smile flip "Aw, that’s so precious."
-Ry normal flip "I guess you and [player_name] are going to be pulling our weight though."
+Ry normal flip "I guess you and [player_name] are going to be pulling our weight, though."
 c "Pulling your weight?"
 show adine normal b with dissolve
 Ry "Well, yes. Because of mine, Adine, and Vara’s lack of proper hands, you two will have to make them for us."
 c "Well, I could if I actually knew how to…"
-Ad "I’m sure Amely will teach you. She’s made them before so she’s quite the expert."
+Ad "I’m sure Amely will teach you. She’s made them before, so she’s quite the expert."
 Am "Crown!"
 show amely normal small fl with dissolve
 $ renpy.pause (0.5)
@@ -40,7 +40,7 @@ Ad giggle b "See?"
 Ad normal b "Amely, would you mind teaching [player_name] how to make flower crowns?"
 Am "Okay. Am greatest teacher."
 $ renpy.pause (2.0)
-m "After a more visual than a verbal tutorial from Amely, we were able to make the remaining flowers crowns we needed for everyone."
+m "After a more visual-than-verbal tutorial from Amely, we were able to make the remaining flower crowns we needed for everyone."
 $ renpy.pause (1.5)
 show amely at Position(xpos=0.5) with ease
 show vara none small flip with dissolve
@@ -65,8 +65,8 @@ $ renpy.pause (1.0)
 show adine giggle fl with dissolve
 $ renpy.pause (1.0)
 Am "Cute!"
-c "I’d have to agree with Amely, it looks pretty good on you."
-Ad normal fl "Why thank you."
+c "I’d have to agree with Amel. It looks pretty good on you."
+Ad normal fl "Why, thank you."
 Ry "I guess it’s our turn now, [player_name]."
 m "Me and Remy then simultaneously put our flower crowns on."
 $ renpy.pause (0.5)
@@ -77,16 +77,16 @@ if remyscenesfinished == 3 and remystatus == "good":
     Ry shy fl flip "O-Oh, well, thank you [player_name]... It looks good on you too."
     Ad giggle fl "Oh my… Remy, is there something you didn’t tell me about you and [player_name]?"
     Ry "Well… We, um…"
-    Ad normal fl "Remy, I’m just teasing, you don’t have to say anything. That’s yours and [player_name] business."
+    Ad normal fl "Remy, I’m just teasing. You don’t have to say anything. That’s your and [player_name]'s business."
     Ry normal fl flip "Right. A-Anyway..."
 
 else:
-    Ad "That’s looks pretty good on you Remy. I think it’s quite charming."
+    Ad "That’s looks pretty good on you, Remy. I think it’s quite charming."
     Ry smile fl flip "Thank you."
     show remy normal fl flip with dissolve 
-    Ad "It’s suits you pretty well too, [player_name]."
+    Ad "It suits you pretty well too, [player_name]."
     Am "Yeah, look good!"
-    c "Thank you Amely, that’s very kind of you to say."
+    c "Thank you, Amely. That’s very kind of you to say."
     Am "Yes, me very kindest."
 
 Ry "Vara, what do you think?"
@@ -106,12 +106,12 @@ Am "Yeah! Bestest flyer!"
 Ad think fl "Hmm…"
 Ad normal fl "As much as I’d now like to, I’m pretty sure it would just end up falling off or breaking."
 Am sad small fl "Aww…"
-Ry "Don’t worry Amely, you can wear flower crowns as much as you want."
+Ry "Don’t worry, Amely. You can wear flower crowns as much as you want."
 Am normal small fl "Yaaay!"
 Ad giggle fl "Next thing we’ll know, Amely would have gotten everyone in the orphanage to wear flower crowns."
 Ry smile fl flip "That would be absolutely adorable."
 $ renpy.pause (1.5)
-Ry normal fl flip "Actually, while we’re on the topic of flowers, I  had an idea I wanted to share with you Adine."
+Ry normal fl flip "Actually, while we’re on the topic of flowers, I  had an idea I wanted to share with you, Adine."
 Ad think fl "Oh? Well, what is it?"
 Ry "Well, I was thinking if we plant some flowers outside the orphanage, it could make it more appealing for people passing by."
 Ad "Hmm…"
@@ -126,9 +126,9 @@ Ry normal fl flip "Oh, I’m sorry. Do you not like flower puns?"
 Ry smile fl flip "Oopsie daisy!"
 Am "Hehehe!"
 Ad "You’re lucky we’re in front of Amely and Vara right now…"
-Ry "Oh, come on Adine. We’re just {i}pollen{/i} your leg!"
+Ry "Oh, come on, Adine. We’re just {i}pollen{/i} your leg!"
 m "It was hard for me to refrain from chuckling at this point. I even heard a slight snicker from Vara too. "
-Ad "Don’t encourage him [player_name]..."
+Ad "Don’t encourage him, [player_name]..."
 $ renpy.pause (2.0)
 Ry normal fl flip "Okay, Adine, I’m sorry. I’ll stop with the puns."
 Ry smile fl flip "I hope this won’t affect our friendship, {i}down-delion.{/i}"
@@ -141,7 +141,7 @@ $ renpy.pause (1.5)
 
 Ry normal fl flip "Anyway, I’d say this was well worth the detour."
 Ad normal fl "Minus the terrible puns, definitely."
-Ry "But we should start heading back to the orphanage now before it gets too late."
+Ry "We should start heading back to the orphanage now before it gets too late."
 Ad think fl "Yeah, we have been here for a while now, huh?"
 c "Well, time flies when you’re having fun."
 Ad giggle fl "And this whole trip was extremely fun."
@@ -165,7 +165,7 @@ $ renpy.pause (0.5)
 Ry "[player_name], would you mind staying for a bit longer before you go?"
 c "Sure. What is it?"
 Ry smile fl flip "We just wanted to say that we appreciate you coming along. It’s been a while since I’ve gotten to have a really good time with other people like this."
-Ad giggle fl "I really enjoyed your company too, I doubt it would have been the same without you."
+Ad giggle fl "I really enjoyed your company too. I doubt it would have been the same without you."
 show adine normal fl 
 show remy normal fl flip 
 with dissolve
@@ -175,7 +175,7 @@ m "Vara once again nodded."
 Ad "We should try and go out together like this again at some point."
 c "I’d like to, but I’m not sure if I can. I can't tell if I’ll be busy or not yet."
 Ad "Oh, that’s a bit of a shame. "
-Ry "Anyway, we should be getting Amely and Vara inside. Hopefully, we’ll see you later."
+Ry "Anyway, we should be getting Amely and Vara inside. Hopefully we’ll see you later."
 Am "Bye-bye!"
 c "See ya."
 
@@ -189,15 +189,15 @@ scene office at Pan ((128, 250), (0, 250), 3.0) with dissolvemed
 $ renpy.pause (2.0)
 show sebastian normal b with dissolve
 $ renpy.pause (0.5)
-Sb "There you are [player_name]. I’ve been waiting here for you for a while now. What took you so long?"
+Sb "There you are, [player_name]. I’ve been waiting here for you for a while now. What took you so long?"
 Sb disapproval b "And what's with the flower crown?"
 if c4hatcheryavailable == False:
     c "Oh, sorry about that. I just got a bit caught up with something after delivering the eggs to the hatchery."
 elif c4libraryavailable == False:
     c "Oh, sorry about that. I just got a bit caught up with something after delivering the PDA to Remy."
-c "You don’t have to worry about anything though. I’m fine, and the delivery went smoothly."
+c "You don’t have to worry about anything, though. I’m fine, and the delivery went smoothly."
 Sb "Right. Just try to be more conscious of time in the future. I was starting to suspect something could have happened to you, and that’s the reason you were late."
-Sb normal b "But I guess as long as you’re fine, it doesn't need to be worried about, as long as it doesn't happen again. Anyway…"
+Sb normal b "But I guess as long as you’re fine, it doesn't need to be worried about as long as it doesn't happen again. Anyway…"
 
 $ ryann_adatp_played = True
 

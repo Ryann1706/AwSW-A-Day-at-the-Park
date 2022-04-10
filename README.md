@@ -17,3 +17,6 @@ In chapter 4, specifically for your first choice for the investigation, have thr
 Thanks to Kolsavdür and 4onen for playtesting, and thanks for the good ideas from Kolsavdür as well.
 
 Credit to Uncle Mugen, EvilChaosKnight, and zapsplat.com for the extra resources. (More details in resource folder)
+
+
+If you have any issues, questions, feedback or encounter any bugs, grammar mistakes ect, then DM me on Discord at Ryann1706#2372

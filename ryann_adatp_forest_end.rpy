@@ -65,7 +65,7 @@ $ renpy.pause (1.0)
 show adine giggle fl with dissolve
 $ renpy.pause (1.0)
 Am "Cute!"
-c "I’d have to agree with Amel. It looks pretty good on you."
+c "I’d have to agree with Amely. It looks pretty good on you."
 Ad normal fl "Why, thank you."
 Ry "I guess it’s our turn now, [player_name]."
 m "Me and Remy then simultaneously put our flower crowns on."

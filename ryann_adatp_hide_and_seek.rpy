@@ -386,7 +386,7 @@ elif ryann_adatp_hide_and_seek_time_remaining == 0:
     scene ryann_playground_day 
     show adine normal b flip at Position(xpos=0.3)
     show amely normal small at Position(xpos=0.7)
-    show remy normal flip at Position(xpos=0.15) 
+    show remy normal flip at Position(xpos=0.1) 
     show vara smile small at Position(xpos=0.9) behind amely
     with dissolve  
     $ renpy.pause (0.5)

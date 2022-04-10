@@ -7,7 +7,7 @@ import jz_magmalink as ml
 @loadable_mod
 class AWSWMod(Mod):
     name = "A Day at the Park"
-    version = "0.0"
+    version = "1.0"
     author = "Ryann1706"
     dependencies = ["MagmaLink"]
 

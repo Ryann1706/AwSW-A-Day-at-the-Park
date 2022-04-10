@@ -410,7 +410,7 @@ m "I turned and started to walk away, but was stopped by something tugging my le
 m "I looked to check and saw it was Vara grabbing my leg, and upon my notice of her, she pulled again and started to walk off, glancing back indicating I should follow."
 $ renpy.pause (2.0)
 if persistent.varasaved == True:
-    m "I trailed behind her for a few moments getting a sense of deja vu, as she led me to some swings."
+    m "I trailed behind her for a few moments, getting a sense of deja vu, as she led me to some swings."
 else:
     m "I trailed behind her for a few moments as she led me to some swings."
 

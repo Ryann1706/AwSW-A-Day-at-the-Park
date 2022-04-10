@@ -167,7 +167,7 @@ label ryann_adatp_hide_and_seek_street:
 if ryann_adatp_hide_and_seek_found_remy == False:
     $ ryann_adatp_hide_and_seek_found_remy = True
     $ ryann_adatp_hide_and_seek_people_found += 1
-    m "I made my way onto the street near the park. The was very pleasant, having a fountain, flower bed, and a picnic area off to the side."
+    m "I made my way onto the street near the park. The park was very pleasant, having a fountain, flower bed, and a picnic area off to the side."
     m "And most importantly, Remy; attempting to hide behind shrubbery that was clearly too small for him."
     c "Very inconspicuous, Remy."
     $ renpy.pause (0.5)

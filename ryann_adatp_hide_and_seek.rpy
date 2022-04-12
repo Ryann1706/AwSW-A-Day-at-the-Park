@@ -42,7 +42,7 @@ if ryann_adatp_hide_and_seek_time_remaining == 0 or ryann_adatp_hide_and_seek_pe
     jump ryann_adatp_hide_and_seek_end
 
 menu:
-    "Check playground equpiment." if not ryann_adatp_hide_and_seek_checked_playground:
+    "Check playground equipment." if not ryann_adatp_hide_and_seek_checked_playground:
         $ ryann_adatp_hide_and_seek_checked_playground = True
         $ ryann_adatp_hide_and_seek_time_remaining -= 1
         c "(Maybe someone is hiding up on the playground equipment?)"
@@ -110,7 +110,7 @@ menu:
         Ad normal b "Well, there wasn’t much I could do about them."
         $ renpy.pause (1.0)
         if adine3unplayed == False:
-            c "Adine, are sure it’s a good idea to fly while your wing is still sprained?"
+            c "Adine, are you sure it’s a good idea to fly while your wing is still sprained?"
             Ad "Oh, don’t worry. It’s healed enough that I can fly with a bandage to stabilize it. I just can’t do any more exerting or advanced moves."
             c "Won’t that make it take longer to heal if you’re still using it? What if it doesn’t heal before your competition?"
             Ad giggle b "[player_name], seriously, don’t worry, I’ll be fine. Like I said, this kind of stuff happens. I know what I’m doing."

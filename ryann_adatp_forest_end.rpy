@@ -81,7 +81,7 @@ if remyscenesfinished == 3 and remystatus == "good":
     Ry normal fl flip "Right. A-Anyway..."
 
 else:
-    Ad "That’s looks pretty good on you, Remy. I think it’s quite charming."
+    Ad "That looks pretty good on you, Remy. I think it’s quite charming."
     Ry smile fl flip "Thank you."
     show remy normal fl flip with dissolve 
     Ad "It suits you pretty well too, [player_name]."

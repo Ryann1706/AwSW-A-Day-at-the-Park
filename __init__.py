@@ -66,41 +66,41 @@ class AWSWMod(Mod):
         ml.find_label("c4library") \
             .search_if("remystatus == \"good\"").branch() \
             .search_say("I may not be working today, but I'm still going to check it out as soon as possible.") \
-            .hook_to("ryann_adatp_start_pda", condition="remyscenesfinished == 3" and "c4sectionsplayed == 1")
+            .hook_to("ryann_adatp_start_pda", condition="remyscenesfinished == 3 and c4sectionsplayed == 1")
 
         # Delivering the PDA with Remy having three scenes done
         ml.find_label("c4library") \
             .search_if("remystatus == \"good\"").branch("remystatus == \"neutral\"") \
             .search_say("I may not be working today, but I'm still going to check it out as soon as possible.") \
-            .hook_to("ryann_adatp_start_pda2", condition="remyscenesfinished == 3" and "c4sectionsplayed == 1")
+            .hook_to("ryann_adatp_start_pda2", condition="remyscenesfinished == 3 and c4sectionsplayed == 1")
 
         # Going to the orphanage with Remy having three scenes done
         ml.find_label("c4hatchery") \
             .search_if("adinestatus == \"bad\"").branch("adinestatus == \"none\"") \
             .search_if("remystatus == \"bad\"").branch("remygoodending == True") \
             .search_say("Yeah, probably.") \
-            .hook_to("ryann_adatp_start_orphanage_remy", condition="remyscenesfinished == 3" and "c4sectionsplayed == 1") 
+            .hook_to("ryann_adatp_start_orphanage_remy", condition="remyscenesfinished == 3 and c4sectionsplayed == 1") 
 
         # Going to the orphanage with Remy having three scenes done
         ml.find_label("c4hatchery") \
             .search_if("adinestatus == \"bad\"").branch("adinestatus == \"none\"") \
             .search_if("remystatus == \"bad\"").branch("persistent.remygoodending == True") \
             .search_say("Yeah, probably.") \
-            .hook_to("ryann_adatp_start_orphanage_remy2", condition="remyscenesfinished == 3" and "c4sectionsplayed == 1")
+            .hook_to("ryann_adatp_start_orphanage_remy2", condition="remyscenesfinished == 3 and c4sectionsplayed == 1")
         
         # Going to the orphanage with Adine having three scenes done
         ml.find_label("c4hatchery") \
             .search_if("adinestatus == \"bad\"").branch_else() \
             .search_if("remystatus == \"bad\"").branch("remygoodending == True") \
             .search_say("She's definitely listening, though. Isn't that right?") \
-            .hook_to("ryann_adatp_start_orphanage_adine", condition="adinescenesfinished == 3" and "c4sectionsplayed == 1")
+            .hook_to("ryann_adatp_start_orphanage_adine", condition="adinescenesfinished == 3 and c4sectionsplayed == 1")
 
         # Going to the orphanage with Adine having three scenes done
         ml.find_label("c4hatchery") \
             .search_if("adinestatus == \"bad\"").branch_else() \
             .search_if("remystatus == \"bad\"").branch("persistent.remygoodending == True") \
             .search_say("She doesn't talk much.") \
-            .hook_to("ryann_adatp_start_orphanage_adine2", condition="adinescenesfinished == 3" and "c4sectionsplayed == 1")
+            .hook_to("ryann_adatp_start_orphanage_adine2", condition="adinescenesfinished == 3 and c4sectionsplayed == 1")
         
 
     def mod_complete(self):
